@@ -18,7 +18,7 @@ namespace PeakBagger.Controllers
             return View();
         }
 
-        public IActionResult Privacy()
+        public IActionResult Services()
         {
             return View();
         }

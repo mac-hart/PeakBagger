@@ -1,8 +1,47 @@
 ﻿@{
-    ViewData["Title"] = "Home Page";
+    ViewData["Title"] = "Home";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <h1>PEAK BAGGING</h1>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Ever wanted to be on top of the world?</h1>
+            <p>Peak bagging is the activity of climbing to the summit of a collection of peaks or mountains, typically with the goal of reaching the highest point of each. It's a challenging and rewarding pursuit that offers stunning views and a sense of accomplishment.</p>
+            <p>Whether you're a seasoned mountaineer or just starting out, join us as we explore some of the world's most breathtaking peaks and share our experiences, tips, and stories along the way.</p>
+            <img src="~/kingswithwood.jpg" />
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <h2>About Me</h2>
+        <p>An amateur peak bagger, I have climbed 4 of Utah's 8 most prominent peaks (affectionately known as the Ultra 8)</p>
+        <ol>
+            <li>Mount Nebo</li>
+            <li>Kings Peak</li>
+            <li>Mount Timpanogos</li>
+            <li>Deseret Peak</li>
+        </ol>
+        <img src="~/nebosaddle.jpg" />
+        <img src="~/kingsriver.jpg" />
+        <img src="~/deseret.jpg.jpg" />
+    </section>
+
+    <footer class="border-top footer text-muted">
+        <div class="container">
+            &copy; 2024 - PeakBagger: A Mac Hartsell project - <a asp-area="" asp-controller="Home" asp-action="Services">Services</a>
+        </div>
+    </footer>
+</body>
+</html>
